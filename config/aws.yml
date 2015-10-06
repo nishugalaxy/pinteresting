@@ -1,9 +1,0 @@
-development:
-  access_key_id: "xxxxxinquote"
-  secret_access_key: "yyyyyinquote"
-test:
-  access_key_id: abc...
-  secret_access_key: abc...
-production:
-  access_key_id: "AKIAJ7T4PKBXC2L4UIDA"
-  secret_access_key: "K4071I4cfPHCPkI0n7ZOHxKJQ5iLz9X5pxUbfvG"
