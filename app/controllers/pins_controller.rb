@@ -8,7 +8,7 @@ class PinsController < ApplicationController
 
   def index
    # @pins = Pin.all.order ("created_at DESC").paginate(:page => params[:page], :per_page =>8)
-    @pins = Pin.paginate(:per_page => 6, :page => params[:page]).order('created_at DESC')
+    @pins = Pin.paginate(:per_page => 10, :page => params[:page]).order('created_at DESC')
     # you can also add the limiting code to limit the number of pins viewed in the first page
      # respond_with(@pins)
   end
